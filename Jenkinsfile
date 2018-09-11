@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-			    sh 'echo This is working!'
+			    sh 'echo This is working! In the MASTA'
                 sh './jenkins/scripts/test.sh'
             }
         }
