@@ -16,6 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
+			sh 'echo We are testing the TEST BRANCH' 
                 sh './jenkins/scripts/test.sh'
             }
         }
