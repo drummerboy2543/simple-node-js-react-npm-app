@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-			    sh 'echo This is working and I AM HAPPY ONE MORE TIME. And this should pass.'
+			    sh 'echo This is working and I AM HAPPY ONE MORE TIME. And this should pass please.'
                 sh './jenkins/scripts/test.sh'
             }
         }
